@@ -3,7 +3,7 @@
 Inductive Statements define one or more base cases and inevitably give rise to recursion
 """
 #Factorial Using Recursion
-'''def factorial(n):
+def factorial(n):
     if n==0:
         return 1
     else :
@@ -66,7 +66,7 @@ def isort(l):
             pos-=1
     print(l)
 isort([3,6,5,8,7])
-'''
+
 
 #recursive insertion sort
 def InsertionSort(seq):
